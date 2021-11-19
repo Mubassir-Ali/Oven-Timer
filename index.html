@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="oven">
+        <div class="timer_display">
+          <h1 id="displayCounter">0</h1>
+        </div>
+        <div class="timer_button">
+          <button id="sec10" onclick="add(10)">10</button>
+          <button id="sec20" onclick="add(20)">20</button>
+          <button id="sec30" onclick="add(30)">30</button>
+          <button id="sec40" onclick="add(40)">40</button>
+          <button id="sec50" onclick="add(50)">50</button>
+          <button id="min1" onclick="add(60)">60</button>
+        </div>
+        <div class="start_stop">
+          <button onclick="reset()">Reset</button>
+          <button id="start" onclick="start(this)" value="Start">Start</button type="button">
+          
+        </div>
+      </div>
+    </div>
+
+    <script src="oven.js"></script>
+  </body>
+</html>
